@@ -1,0 +1,89 @@
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar >
+      <ion-title size="medium" >Tunicleany</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+ 
+  <div id="container">
+    
+ <div class="login-section">
+ 
+  
+  
+  <img src="assets/Tunicleany.png" width="20%" height="15%" >
+ 
+            <ion-item>
+              <ion-icon name="person-outline"></ion-icon>
+            
+             
+              <ion-input placeholder="Nom" type="text"></ion-input>
+            </ion-item> 
+            <ion-item>
+              <ion-icon name="card-outline"></ion-icon>
+            
+             
+              <ion-input placeholder="Matricule Fiscale" type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="mail-outline"></ion-icon>
+            
+             
+              <ion-input placeholder="Email" type="email"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="lock-closed-outline"></ion-icon>
+            
+             
+              <ion-input placeholder="Mot de passe" type="password"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="lock-closed-outline"></ion-icon>
+            
+             
+              <ion-input placeholder="Confirmer le mot de passe" type="password"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-icon name="call-outline"></ion-icon>
+            
+             
+              <ion-input placeholder="Téléphone"type="tel"></ion-input>
+            </ion-item>
+           
+            
+              <ion-item>
+                <ion-label>type</ion-label>
+                <ion-select value="12">
+                  <ion-select-option  value="01">DASR</ion-select-option>
+                  <ion-select-option value="02">DASRi</ion-select-option>
+                 
+                </ion-select>
+              </ion-item>
+              <ion-item>
+                <ion-label>type</ion-label>
+                <ion-select value="12">
+                  <ion-select-option value="01">type1</ion-select-option>
+                  <ion-select-option value="02">type2</ion-select-option>
+                 
+                </ion-select>
+              </ion-item>
+              <ion-item>
+                <ion-label>Choisir Productive ou Collecte et Transport ou Recyclage</ion-label>
+                <ion-select value="12">
+                  <ion-select-option value="01">Productive</ion-select-option>
+                  <ion-select-option value="02">Collecte</ion-select-option>
+                  <ion-select-option value="03">Recyclage</ion-select-option>
+                </ion-select>
+              </ion-item>
+           
+              <br>
+              <ion-button color="success" fill="outline" routerLink="/acceuil">Creer compte</ion-button>
+           
+          </div>
+         
+  </div>
+
+</ion-content>
