@@ -8,7 +8,7 @@
   </ion-header>
   <ion-header>
   <ion-toolbar color="success">
-    <ion-title>Creer Commande</ion-title>
+    <ion-title>Créer Commande</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
@@ -21,29 +21,125 @@
  
  
            
-    <ion-icon id="pen" name="pencil-sharp"></ion-icon>
+    <ion-icon id="pen" name="pencil-sharp"></ion-icon><h1>Créer Votre Commande</h1>
               <ion-item>
-                <ion-label>type</ion-label>
+                <ion-label>Choisir  Gouvernerat</ion-label>
                 <ion-select value="12">
-                  <ion-select-option  value="01">DASR</ion-select-option>
-                  <ion-select-option value="02">DASRi</ion-select-option>
-                 
+                  <ion-select-option  value="01">Ariana</ion-select-option>
+                  <ion-select-option value="02">Béja</ion-select-option>
+                  <ion-select-option value="02">Ben arous</ion-select-option>
+                  <ion-select-option value="02">Bizerte</ion-select-option>
+                  <ion-select-option value="02">Gabés</ion-select-option>
+                  <ion-select-option value="02">Gafsa</ion-select-option>
+                  <ion-select-option value="02">Jendouba</ion-select-option>
+                  <ion-select-option value="02">Kairoun</ion-select-option>
+                  <ion-select-option value="02">Kasserine</ion-select-option>
+                  <ion-select-option value="02">Kébeli</ion-select-option>
+                  <ion-select-option value="02">Kef</ion-select-option>
+                  <ion-select-option value="02">Mahdia</ion-select-option>
+                  <ion-select-option value="02">Manouba</ion-select-option>
+                  <ion-select-option value="02">Médnine</ion-select-option>
+                  <ion-select-option value="02">Monsatir</ion-select-option>
+                  <ion-select-option value="02">Nabeul</ion-select-option>
+                  <ion-select-option value="02">Sfax</ion-select-option>
+                  <ion-select-option value="02">Sidi Bouzid</ion-select-option>
+                  <ion-select-option value="02">Siliana</ion-select-option>
+                  <ion-select-option value="02">Sousse</ion-select-option>
+                  <ion-select-option value="02">Tataouine</ion-select-option>
+                  <ion-select-option value="02">Tozeur</ion-select-option>
+                  <ion-select-option value="02">Tunis</ion-select-option>
+                  <ion-select-option value="02">Zaghouen</ion-select-option>
+
                 </ion-select>
               </ion-item>
               <ion-item>
-                <ion-label>type</ion-label>
+                <ion-label>Choisir le type de déchets</ion-label>
                 <ion-select value="12">
-                  <ion-select-option value="01">type1</ion-select-option>
-                  <ion-select-option value="02">type2</ion-select-option>
-                 
+                  <ion-select-option value="01">Dasr</ion-select-option>
+                  <ion-select-option value="02">Explosif</ion-select-option>
+                  <ion-select-option value="02">Comburant</ion-select-option>
+                  <ion-select-option value="02">Inflammable</ion-select-option>
+                  <ion-select-option value="02">Infectieux</ion-select-option>
+                  <ion-select-option value="02">Ecotoxique</ion-select-option>
+
+
+
+
                 </ion-select>
               </ion-item>
-             
+              <ion-item>
+                <ion-label>Choisir le sous type de déchets</ion-label>
+                <ion-select value="12">
+                  <ion-select-option value="01">Dasri</ion-select-option>
+                  <ion-select-option value="02">Médicament</ion-select-option>
+                  <ion-select-option value="02">Piéces anatomique</ion-select-option>
+                  <ion-select-option value="02">Déchet chimique</ion-select-option>
+                  <ion-select-option value="02">Radio argentique</ion-select-option>
+                  
+
+
+
+                </ion-select>
+              </ion-item>
+              <ion-item>
+                <ion-label>Choisir le nature d'activité</ion-label>
+                <ion-select value="12">
+                  <ion-select-option value="01">Productive</ion-select-option>
+                  <ion-select-option value="02">Collete et traitement</ion-select-option>
+                  <ion-select-option value="02">Recyclage</ion-select-option>
+               
+
+
+                </ion-select>
+              </ion-item>
+              <ion-item>
+              <ion-label>Choisir sociéte</ion-label>
+                <ion-select value="12">
+                  <ion-select-option value="01">Hopital</ion-select-option>
+                  <ion-select-option value="02">Usine</ion-select-option>
+                  
+               
+
+
+                </ion-select>
+              </ion-item>
+              
+                <ion-item>
+                <ion-icon name="file-tray-outline"></ion-icon>
+      <ion-input placeholder="Poids"type="number"></ion-input>
+   
+              </ion-item>
+
               <ion-button color="success" fill="outline">Confirmer</ion-button>
            
           </div>
          
   </div>
 </div>
+<ion-tabs>
+ 
+   
+  <ion-tab-bar slot="bottom" >
+    <ion-tab-button tab="schedule"  routerLink="/acceuil">
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Acceuil</ion-label>
+   
+    </ion-tab-button>
 
+    <ion-tab-button tab="bottom" routerLink="/commandes" >
+      <ion-icon name="pencil" ></ion-icon>
+      <ion-label>Créer une commande</ion-label>
+    </ion-tab-button>
+    
+    <ion-tab-button tab="bottom"  routerLink="/actualite">
+      <ion-icon name="newspaper"></ion-icon>
+      <ion-label>Actualite</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="bottom" routerLink="/contact">
+      <ion-icon name="chatbubble" ></ion-icon>
+      <ion-label>Contactez-nous</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
 </ion-content>

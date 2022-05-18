@@ -44,8 +44,30 @@
       
        
       
-      Étape 5 : Déterminer si le déchet contient des polluants organiques persistants (POP)
-      Lors de cette dernière étape, il s’agit de déterminer si le déchet contient des POP et si la teneur en POP dépasse les valeurs limites définies dans le règlement POP [4].
+      <ion-tabs >
+ 
+   
+        <ion-tab-bar slot="bottom" >
+          <ion-tab-button tab="schedule"  routerLink="/acceuil">
+            <ion-icon name="home"></ion-icon>
+            <ion-label>Acceuil</ion-label>
+         
+          </ion-tab-button>
       
-      Nota : Les POP désignent des substances chimiques qui, produites intentionnellement ou non, s’accumulent facilement dans les organismes vivants et sont particulièrement toxiques pour la santé humaine et l’environnement. Outre des pesticides (DDT, Aldrine, Chlordane…), les principaux POP sont les dioxines et furannes, les PCB et les hydrocarbures aromatiques polycycliques (HAP). Lorsqu’ils sont produits de façon non intentionnelle, les POP sont principalement générés lors de combustions incomplètes. Les procédés industriels mettant en œuvre une étape de combustion (incinération de déchets, métallurgie…) sont donc les principaux émetteurs.</p>
+          <ion-tab-button tab="bottom" routerLink="/commandes" >
+            <ion-icon name="pencil" ></ion-icon>
+            <ion-label>Créer une commande</ion-label>
+          </ion-tab-button>
+          
+          <ion-tab-button tab="bottom"  routerLink="/actualite">
+            <ion-icon name="newspaper"></ion-icon>
+            <ion-label>Actualite</ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="bottom" routerLink="/contact">
+            <ion-icon name="chatbubble" ></ion-icon>
+            <ion-label>Contactez-nous</ion-label>
+          </ion-tab-button>
+        </ion-tab-bar>
+      </ion-tabs>
 </ion-content>

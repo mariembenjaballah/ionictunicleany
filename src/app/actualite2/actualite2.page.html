@@ -11,4 +11,30 @@
     Un Forum international des déchets dangereux a été organisé les 23, 24 et 25 février dernier à Hammamet : «Réalité et solutions possibles ». Dans ce contexte, Emna Helmi, sous-directeur de la protection de l’environnement et expert santé-environnement au sein du ministère de la Santé, a déclaré qu’actuellement, le ministère de la Santé  accorde beaucoup d’importance à la gestion des déchets des activités de soins. Ces déchets, qui sont inscrits dans la politique d’amélioration continue de la qualité et de la sécurité des soins,  consacrent une ligne budgétaire pour la gestion rationnelle.
     
     En fait, on distingue habituellement six catégories de DAS (Activité de déchets de soins), à savoir les déchets d’activités de soins à risques infectieux (Dasri) ; les déchets d’activités de soins à risque toxique et chimique (Dasrtc) ; les déchets inflammables ou explosifs (DIE) ; les déchets d’activités de soins à risque radioactif (Dasr) ; les pièces anatomiques, placentas, embryons et fœtus mort-nés (PA/P/E/FMN); et les déchets de type ménager et assimilés (DMA).</p>
-</ion-content>
+    <ion-tabs >
+ 
+   
+      <ion-tab-bar slot="bottom" >
+        <ion-tab-button tab="schedule"  routerLink="/acceuil">
+          <ion-icon name="home"></ion-icon>
+          <ion-label>Acceuil</ion-label>
+       
+        </ion-tab-button>
+    
+        <ion-tab-button tab="bottom" routerLink="/commandes" >
+          <ion-icon name="pencil" ></ion-icon>
+          <ion-label>Créer une commande</ion-label>
+        </ion-tab-button>
+        
+        <ion-tab-button tab="bottom"  routerLink="/actualite">
+          <ion-icon name="newspaper"></ion-icon>
+          <ion-label>Actualite</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="bottom" routerLink="/contact">
+          <ion-icon name="chatbubble" ></ion-icon>
+          <ion-label>Contactez-nous</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-content>
